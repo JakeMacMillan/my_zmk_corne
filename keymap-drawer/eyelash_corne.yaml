@@ -154,12 +154,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP PLUS
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP STAR
+  - KP LPAR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -169,12 +169,12 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: '-', s: _}
-  - '4'
-  - '5'
-  - '6'
-  - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP SLASH
+  - KP RPAR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,15 +183,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - {t: '=', s: +}
-  - '1'
-  - '2'
-  - '3'
+  - KP EQUAL
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: NUMPAD, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
-  - '0'
+  - KP DOT
+  - KP 0
