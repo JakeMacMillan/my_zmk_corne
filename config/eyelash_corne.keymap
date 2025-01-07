@@ -84,9 +84,9 @@
         numpad_layer {
             display-name = "NUMPAD";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                            &mmv MOVE_UP                      &kp PLUS   &kp 7   &kp 8   &kp 9   &kp STAR &trans  
-&trans  &trans  &trans  &trans  &trans  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp MINUS  &kp 4   &kp 5   &kp 6   &kp FSLH &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &kp C_MUTE             &mmv MOVE_DOWN                    &kp EQUAL  &kp 1   &kp 2   &kp 3   &kp RET  &tog 3
+&trans  &trans  &trans  &trans  &trans  &trans                            &kp UP                      &kp PLUS   &kp 7   &kp 8   &kp 9   &kp STAR &trans  
+&trans  &trans  &trans  &trans  &trans  &trans            &kp LEFT        &kp ENTER     &kp RIGHT     &kp MINUS  &kp 4   &kp 5   &kp 6   &kp FSLH &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &kp SPACE              &kp DOWN                    &kp EQUAL  &kp 1   &kp 2   &kp 3   &kp RET  &tog 3
                               &trans     &trans     &trans                                                        &trans  &kp DOT    &kp 0
             >;
             sensor-bindings = <&scroll_encoder>;
