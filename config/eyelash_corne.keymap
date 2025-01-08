@@ -74,8 +74,8 @@
             display-name = "ETC";
             bindings = <
 &kp PSCRN &kp F1  &kp F2     &kp F3     &kp F4           &kp F5                             &mmv MOVE_UP                      &kp F6       &kp F7       &kp F8     &kp F9    &kp F10   &kp BSPC
-&kp CLCK  &kp Y   &trans     &trans     &rgb_ug RGB_EFF  &rgb_ug RGB_TOG    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &bt CLR_ALL  &bt BT_SEL 0 &trans     &kp F11   &kp F12   &trans
-&trans    &kp Z   &kp X      &kp C      &kp V        &trans      &trans                 &mmv MOVE_DOWN                    &bt BT_SEL 1 &bt BT_SEL 2 &trans     &trans    &trans    &trans
+&kp CLCK  &kp Y   &trans     &trans     &rgb_ug RGB_EFF  &rgb_ug RGB_TOG    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &trans       &trans       &trans     &kp F11   &kp F12   &trans
+&trans    &kp Z   &kp X      &kp C      &kp V            &trans      &trans                 &mmv MOVE_DOWN                    &trans       &trans       &trans     &trans    &trans    &trans
                                          &trans     &trans     &trans                                                        &trans    &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
